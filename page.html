@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membership Plans</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e6e6ea;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 40px 0;
+            font-size: 32px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 300px;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .card-header {
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .deluxe {
+            background: linear-gradient(to right, #000000, #333333);
+            color: gold;
+        }
+
+        .extra {
+            background: #f7c600;
+            color: black;
+        }
+
+        .essential {
+            background: #f1f1f1;
+            color: black;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 25px;
+            border: none;
+            background: #0070d1;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+
+<h1>COMPARE MEMBERSHIP PLANS</h1>
+
+<div class="container">
+
+    <div class="card">
+        <div class="card-header deluxe">
+            DELUXE <br>
+            <small>Experience all benefits</small>
+        </div>
+        <ul>
+            <li>✔ Monthly games</li>
+            <li>✔ Online multiplayer</li>
+            <li>✔ Exclusive discounts</li>
+            <li>✔ Cloud storage</li>
+            <li>✔ Game Catalogue</li>
+            <li>✔ Ubisoft+ Classics</li>
+            <li>✔ Classics Catalogue</li>
+            <li>✔ Game trials</li>
+        </ul>
+        <button class="btn">Select Plan</button>
+    </div>
+
+    <div class="card">
+        <div class="card-header extra">
+            EXTRA <br>
+            <small>Discover hundreds of games</small>
+        </div>
+        <ul>
+            <li>✔ Monthly games</li>
+            <li>✔ Online multiplayer</li>
+            <li>✔ Exclusive discounts</li>
+            <li>✔ Cloud storage</li>
+            <li>✔ Game Catalogue</li>
+            <li>✔ Ubisoft+ Classics</li>
+        </ul>
+        <button class="btn">Select Plan</button>
+    </div>
+
+    <div class="card">
+        <div class="card-header essential">
+            ESSENTIAL <br>
+            <small>Monthly games & multiplayer</small>
+        </div>
+        <ul>
+            <li>✔ Monthly games</li>
+            <li>✔ Online multiplayer</li>
+            <li>✔ Exclusive discounts</li>
+            <li>✔ Cloud storage</li>
+        </ul>
+        <button class="btn">Select Plan</button>
+    </div>
+
+</div>
+
+</body>
+</html>
